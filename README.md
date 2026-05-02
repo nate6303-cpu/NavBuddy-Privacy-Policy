@@ -8,6 +8,7 @@ NavBuddy does not maintain profiles, account records, location histories, trip l
 Local Use of Location Data
 Location data is required for core app functions (route planning, turn‑by‑turn navigation, positioning). This location data is used and processed locally on your device to provide those features.
 When location or sensor data is used, it is kept on the device and is not uploaded, transmitted, or stored externally except as described in Section 4.
+
 Minimal, Non‑Identifying External Requests (when required)
 If NavBuddy requests map tiles, routing, traffic, or other resources from external providers, those requests are made without knowingly including identifying user data. Only the minimal non‑identifying information necessary to fetch resources (for example, map tile coordinates or a generalized area for routing) is used.
 NavBuddy does not knowingly attach account identifiers, persistent device identifiers, or location histories to external requests. Identifiable metadata (where possible) is minimized or removed before requests are sent.
@@ -20,8 +21,7 @@ Temporary navigation data (current route, waypoints in an active session) may be
 Local settings (map style, voice volume, units) remain on the device.
 
 Third‑Party Services and Disclosures
-Where third‑party services are used (maps, optional features), NavBuddy’s integration is designed to avoid transmitting identifying user data. Users should review third‑party privacy policies for details on those providers’ practices.
-NavBuddy does not knowingly share personal data with advertisers or for profiling purposes.
+Where third‑party services are used (maps, optional features), NavBuddy’s integration is designed to avoid transmitting identifying user data. Users should review third‑party privacy policies for details on those providers’ practices. NavBuddy does not knowingly share personal data with advertisers or for profiling purposes.
 
 Analytics, Crash Reporting, and Opt‑In Features
 NavBuddy does not collect analytics or usage telemetry by default.
@@ -32,11 +32,10 @@ Local data is stored using platform-recommended secure storage practices.
 Communications with external services use encrypted channels (HTTPS/TLS) where applicable.
 
 Children’s Privacy
-NavBuddy is not intended for children under 13. We do not knowingly collect personal information from children.
-Changes to This Policy
+NavBuddy is intended for all audiences interested in learning or using celestial navigation. We do not knowingly collect personal information from children, adults, or any user of the app.
 
+Changes to This Policy
 Updates to this policy will be published in‑app with the “Last updated” date. Material changes will be presented to users before they take effect.
-Contact
 
 Privacy Disclaimer and Limitation of Liability
 NavBuddy makes commercially reasonable efforts to implement and maintain the privacy practices described in this policy, but does not warrant or guarantee that those practices will prevent all loss, misuse, unauthorized access, or disclosure of data.
